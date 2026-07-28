@@ -1,2 +1,22 @@
-# lullaby-tts-models
-Lullaby 阅读器离线 AI 语音(TTS)模型分发：ZipVoice 中文神经语音模型 + manifest.json。模型授权 CC-BY-NC(Emilia)，非商用。
+# 谛听 Lullaby · 分发仓库
+
+安卓 AI 朗诵电子书阅读器「谛听」的资源分发仓库。**本仓库不含源码**，只托管 APK 与运行时按需下载的资源。
+
+## Releases
+
+| Tag | 内容 |
+|---|---|
+| `app-v1` | 长期固定通道：应用内更新清单 `app-version.json`、在线 TTS 端点发现 `online-endpoint.json`（内容随版本刷新，tag 不变） |
+| `fonts-v1` | 可下载中文字体（开源 OFL 授权） |
+| `models-d235-7c3cd722` | Piper 离线音色「小雅」 |
+| `models-d223-18b35f2d` | Piper 离线音色「超文」 |
+
+APK 按版本发布为 `vX.Y.Z` tag，文件名 `Lullaby-vX.Y.Z.apk`。**当前暂无可下载版本**，`v0.138.0` 待发布。
+
+## 说明
+
+- 离线音色不内置于 APK，在应用内按需下载；音色包按内容寻址托管，内容变更即启用新 tag。
+- 语音模型授权 CC-BY-NC，**非商用**。
+- 源码、文档与问题追踪在 `Kaibancus/Lullaby`（私有仓库）。
+
+> **2026-07-28 仓库改名**：本仓库与源码仓库的名字已对调（本仓库原名 `Lullaby`，源码仓原名 `Audiobook`）。`v0.137.0` 及更早版本的客户端内置的是旧地址，**已永久失效**，需手动安装一次新版本。
