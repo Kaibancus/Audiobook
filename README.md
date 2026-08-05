@@ -5,12 +5,12 @@
 
 ## 下载
 
-最新版本 **[`v1.2.0`](../../releases/latest)** — `Lullaby-v1.2.0.apk`，45,234,067 bytes，
+最新版本 **[`v1.2.1`](../../releases/latest)** — `Lullaby-v1.2.1.apk`，45,233,607 bytes，
 仅 arm64-v8a，Android 8.0+（`minSdk 26` / `targetSdk 36`）。
 
 已装旧版的用户直接覆盖安装即可，签名与既往版本一致，书库与阅读进度不受影响；
 也可在应用内「设置 → 关于 → 检查更新」自动获取增量包——本版增量包
-`Lullaby-v1.1.8-to-v1.2.0.hdiff` 为 4,347,507 bytes，约合完整包的 9.6%。
+`Lullaby-v1.2.0-to-v1.2.1.hdiff` 为 4,359,785 bytes，约合完整包的 9.64%。
 
 ## 长期固定通道 `app-v1`
 
